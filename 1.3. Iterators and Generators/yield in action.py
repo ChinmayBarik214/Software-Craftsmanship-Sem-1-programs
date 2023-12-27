@@ -1,0 +1,17 @@
+pal = (i for i in map(str, range(1000)) if i == i[::-1] and i[-1] == '5')
+for i in pal:
+    print(i)
+# Above loop will give the same output as below code, but both can't be run at once (due to the presence of yield in generator syntax)
+
+# print(next(pal))
+# print(next(pal))
+# print(next(pal))
+# print(next(pal))
+# print(next(pal))
+# print(next(pal))
+# print(next(pal))
+# print(next(pal))
+# print(next(pal))
+# print(next(pal))
+# print(next(pal))
+# print(next(pal))
